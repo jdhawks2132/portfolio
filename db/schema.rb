@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_24_024343) do
+ActiveRecord::Schema.define(version: 2022_01_24_034009) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -41,6 +41,16 @@ ActiveRecord::Schema.define(version: 2022_01_24_024343) do
     t.index ["project_id"], name: "index_skills_on_project_id"
   end
 
+  create_table "urls", force: :cascade do |t|
+    t.string "name"
+    t.string "desc"
+    t.bigint "project_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "address"
+    t.index ["project_id"], name: "index_urls_on_project_id"
+  end
+
   create_table "videos", force: :cascade do |t|
     t.string "name"
     t.string "url"
@@ -52,5 +62,6 @@ ActiveRecord::Schema.define(version: 2022_01_24_024343) do
 
   add_foreign_key "images", "projects"
   add_foreign_key "skills", "projects"
+  add_foreign_key "urls", "projects"
   add_foreign_key "videos", "projects"
 end
