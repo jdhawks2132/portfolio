@@ -14,7 +14,7 @@
 }
 .navbar .logo {
 	color: var(--heading-color);
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	display: flex;
 	align-items: center;
 	margin-right: auto;
@@ -23,13 +23,18 @@
 .navbar .logo h1 {
 	font-weight: 200;
 }
+.navbar .logo h1:hover {
+	color: red;
+}
 .navbar .logo img {
-	margin-right: 10px;
-	width: 75px;
-	margin-top: -8px;
+	width: 150px;
 }
 .navbar a {
 	color: #707070;
 	text-decoration: none;
-	margin-right: 20px;
+	margin-right: 40px;
+}
+
+.navbar a:hover {
+	color: red;
 }
