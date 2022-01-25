@@ -20,20 +20,22 @@ function App() {
 		<div className='app'>
 			<BrowserRouter>
 				<Navbar />
-				<Switch>
-					<Route exact path='/'>
-						<Home />
-					</Route>
-					<Route path='/projects'>
-						<Projects />
-					</Route>
-					<Route path='/about'>
-						<About />
-					</Route>
-					<Route path='/contact'>
-						<Contact />
-					</Route>
-				</Switch>
+				<div className='container'>
+					<Switch>
+						<Route exact path='/'>
+							<Home />
+						</Route>
+						<Route path='/projects'>
+							<Projects />
+						</Route>
+						<Route path='/about'>
+							<About />
+						</Route>
+						<Route path='/contact'>
+							<Contact />
+						</Route>
+					</Switch>
+				</div>
 			</BrowserRouter>
 		</div>
 	);

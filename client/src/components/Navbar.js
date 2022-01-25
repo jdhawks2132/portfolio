@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/Logo.svg';
+
 //styles
 import './Navbar.css';
 
@@ -9,23 +9,28 @@ function Navbar() {
 		<nav className='navbar'>
 			<ul>
 				<li className='logo'>
-					<img src={Logo} alt='logo' />
 					<Link to='/'>
-						<h1>Joshua Hawks</h1>
+						<h1>JH</h1>
 					</Link>
 				</li>
 				<li>
-					<Link to='/projects'>Projects</Link>
+					<Link to='/about'>
+						<span>01.</span>About
+					</Link>
 				</li>
 				<li>
-					<Link to='/about'>About</Link>
+					<Link to='/projects'>
+						<span>02.</span>Projects
+					</Link>
 				</li>
+
 				<li>
 					<a
 						href='https://drive.google.com/file/d/1jbeHE5qYxWmL1CXbRIayN6GthQoK3pv-/view?usp=sharing'
 						target='_blank'
 						rel='noreferrer noopener'
 					>
+						<span>03.</span>
 						Resume
 					</a>
 				</li>
@@ -35,12 +40,15 @@ function Navbar() {
 						target='_blank'
 						rel='noreferrer noopener'
 					>
+						<span>04.</span>
 						Adobe Portfolio
 					</a>
 				</li>
 
 				<li>
-					<Link to='/contact'>Contact</Link>
+					<Link to='/contact'>
+						<span>05.</span>Contact
+					</Link>
 				</li>
 			</ul>
 		</nav>

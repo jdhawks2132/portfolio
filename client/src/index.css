@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
+:root {
+	--heading-color: #fafafa;
+	--text-color: #d5d5d5;
+	--primary-color: #b5b5b5;
+	--highlight-color: #64fffa;
+	--bg-color: #262626;
+}
 /* base styles */
 html,
 body,
@@ -7,17 +14,18 @@ body,
 	height: 100%;
 }
 body {
-	font-family: Raleway, sans-serif;
+	font-family: Fira Code;
 	margin: 0;
 	font-size: 1.4em;
-	background: #fafafa;
-	color: #333;
+	background: var(--bg-color);
+	color: var(--text-color);
 }
 h1,
 h2,
 h3,
 p {
 	margin: 0;
+	color: var(--primary-color);
 }
 
 ul {
@@ -37,13 +45,42 @@ textarea {
 	width: 100%;
 	box-sizing: border-box;
 }
-.page-title {
-	text-align: center;
-	margin: 40px auto;
-	color: #333;
+.title {
+	margin: 20px auto;
+	font-size: 6vw;
+	color: var(--heading-color);
 }
+
+.secondary {
+	color: var(--primary-color);
+	font-size: 3vw;
+}
+
+.tertiary {
+	color: var(--primary-color);
+	font-size: 2vw;
+}
+
+.highlight {
+	color: var(--highlight-color);
+	font-size: 1em;
+}
+
 .loading,
 .error {
 	text-align: center;
 	margin: 40px auto;
+}
+.btn {
+	background: var(--bg-color);
+	padding: 8px 12px;
+	border-radius: 4px;
+	color: var(--highlight-color);
+	cursor: pointer;
+	font-size: 1em;
+	border: 1px solid var(--highlight-color);
+}
+.btn:hover {
+	color: #fff;
+	background-color: var(--primary-color);
 }

@@ -2,8 +2,7 @@
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
-	background-color: #ffffff;
-	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+	background-color: var(--background-color);
 }
 .navbar ul {
 	display: flex;
@@ -16,24 +15,29 @@
 	letter-spacing: 3px;
 	display: flex;
 	align-items: center;
+	margin-left: 50px;
 	margin-right: auto;
 }
 
 .navbar .logo h1 {
+	color: var(--highlight-color);
 	font-weight: 200;
 }
-.navbar .logo h1:hover {
-	color: red;
-}
+
 .navbar .logo img {
 	width: 150px;
 }
 .navbar a {
-	color: #707070;
+	color: var(--text-color);
 	text-decoration: none;
 	margin-right: 40px;
+	font-size: 0.75em;
 }
 
 .navbar a:hover {
-	color: red;
+	color: var(--highlight-color);
+}
+
+.navbar span {
+	color: var(--highlight-color);
 }
