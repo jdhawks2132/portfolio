@@ -1,6 +1,6 @@
 .home {
 	display: grid;
-	grid-template-columns: 1fr 4fr 1fr;
+	grid-template-columns: 0.5fr 4fr 0.5fr;
 	grid-template-areas:
 		'left body right'
 		'left about right';
@@ -10,6 +10,7 @@
 .intro-txt {
 	grid-area: body;
 	margin-top: 150px;
+	margin-left: 150px;
 }
 
 .home .about {
@@ -27,5 +28,5 @@
 
 .left-side img {
 	color: var(--highlight-color);
-	width: 50px;
+	width: 25px;
 }
