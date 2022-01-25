@@ -50,6 +50,9 @@ function Navbar() {
 						<span>05.</span>Contact
 					</Link>
 				</li>
+				<li>
+					<button className='btn'>Test</button>
+				</li>
 			</ul>
 		</nav>
 	);

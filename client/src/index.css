@@ -4,7 +4,7 @@
 	--heading-color: #fafafa;
 	--text-color: #d5d5d5;
 	--primary-color: #b5b5b5;
-	--highlight-color: #64fffa;
+	--highlight-color: #2dfe6f;
 	--bg-color: #262626;
 }
 /* base styles */
@@ -77,10 +77,9 @@ textarea {
 	border-radius: 4px;
 	color: var(--highlight-color);
 	cursor: pointer;
-	font-size: 1em;
+	font-size: 0.75em;
 	border: 1px solid var(--highlight-color);
 }
 .btn:hover {
-	color: #fff;
-	background-color: var(--primary-color);
+	box-shadow: 0 0 8px #2dfe6f;
 }
