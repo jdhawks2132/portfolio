@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
+$desktop: 840px;
+
+@mixin desktop {
+	@media (min-width: #{$desktop}) {
+		@content;
+	}
+}
+
 :root {
-	--heading-color: #fafafa;
-	--text-color: #d5d5d5;
-	--primary-color: #b5b5b5;
-	--highlight-color: #2dfe6f;
-	--bg-color: #262626;
+	--heading-color: #262626;
+	--text-color: #8a8a8a;
+	--primary-color: #787878;
+	--highlight-color: #a71524;
+	--bg-color: #fafafa;
 }
 /* base styles */
 html,
@@ -63,7 +71,7 @@ textarea {
 
 .highlight {
 	color: var(--highlight-color);
-	font-size: 1em;
+	font-size: 1.5vw;
 }
 
 .loading,

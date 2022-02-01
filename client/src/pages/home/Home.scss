@@ -1,20 +1,16 @@
 .home {
-	display: grid;
-	grid-template-columns: 0.5fr 4fr 0.5fr;
-	grid-template-areas:
-		'left body right'
-		'left about right';
+	display: flex;
 	height: 800px;
+	margin: 0 60px;
 }
 
 .intro-txt {
-	grid-area: body;
 	margin-top: 150px;
-	margin-left: 150px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .home #about {
-	grid-area: about;
 	margin-top: 150px;
 }
 
@@ -30,3 +26,4 @@
 	color: var(--highlight-color);
 	width: 25px;
 }
+

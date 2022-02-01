@@ -1,5 +1,5 @@
-import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import './App.scss';
+
 import { useEffect, useState } from 'react';
 import Home from './pages/home/Home';
 import Projects from './pages/projects/Projects';
@@ -18,25 +18,13 @@ function App() {
 	console.log(data);
 	return (
 		<div className='app'>
-			<BrowserRouter>
-				<Navbar />
-				<div className='container'>
-					<Switch>
-						<Route exact path='/'>
-							<Home />
-						</Route>
-						<Route path='/projects'>
-							<Projects projects={data} />
-						</Route>
-						<Route path='/home/#about'>
-							<About />
-						</Route>
-						<Route path='/contact'>
-							<Contact />
-						</Route>
-					</Switch>
-				</div>
-			</BrowserRouter>
+			<Navbar />
+			<div className='container'>
+				<Home />
+				<About />
+				<Projects projects={data} />
+				<Contact />
+			</div>
 		</div>
 	);
 }

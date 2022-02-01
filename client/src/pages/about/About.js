@@ -1,12 +1,17 @@
 import React from 'react';
 
 //styles
-import './About.css';
+import './About.scss';
 
 function About() {
 	return (
-		<div>
-			<h1>About</h1>
+		<div id='about'>
+			<div className='section-header'>
+				<h1>About</h1>
+			</div>
+			<div className='about-content'>
+				<p>Lorem ipsum dolor sit amet, consectetur adip</p>
+			</div>
 		</div>
 	);
 }

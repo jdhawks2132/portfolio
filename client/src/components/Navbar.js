@@ -1,29 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+import Logo from '../assets/Logo.svg';
 
 //styles
-import './Navbar.css';
+import './Navbar.scss';
 
 function Navbar() {
 	return (
 		<nav className='navbar'>
 			<ul>
 				<li className='logo'>
-					<Link to='/'>
-						<h1>JH</h1>
-					</Link>
+					<img src={Logo} alt='logo' />
 				</li>
 				<li>
-					<Link to='/about'>
+					<Link to='about' smooth={true} duration={1000}>
 						<span>01.</span>About
 					</Link>
 				</li>
 				<li>
-					<Link to='/projects'>
+					<Link to='projects' smooth={true} duration={1000}>
 						<span>02.</span>Projects
 					</Link>
 				</li>
-
 				<li>
 					<a
 						href='https://drive.google.com/file/d/1jbeHE5qYxWmL1CXbRIayN6GthQoK3pv-/view?usp=sharing'
@@ -41,18 +39,14 @@ function Navbar() {
 						rel='noreferrer noopener'
 					>
 						<span>04.</span>
-						Adobe Portfolio
+						Design
 					</a>
 				</li>
-
 				<li>
-					<Link to='/contact'>
-						<span>05.</span>Contact
+					<Link to='contact' smooth={true} duration={1000}>
+						<span>05.</span>Connect
 					</Link>
 				</li>
-				{/* <li>
-					<button className='btn'>Test</button>
-				</li> */}
 			</ul>
 		</nav>
 	);
