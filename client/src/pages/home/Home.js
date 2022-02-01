@@ -30,7 +30,7 @@ function Home() {
 				<p className='highlight'>Hi, my name is...</p>
 				<h1 className='title'>Joshua Hawks</h1>
 				<h2 className='secondary'>Full-stack Developer</h2>
-				<p className='tertiary'>React JS | Ruby on Rails | Ruby | Redux</p>
+				<p className='tertiary'>React | Ruby on Rails | Ruby | Redux</p>
 			</div>
 		</div>
 	);

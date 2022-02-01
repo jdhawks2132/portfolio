@@ -26,9 +26,9 @@ function App() {
 							<Home />
 						</Route>
 						<Route path='/projects'>
-							<Projects />
+							<Projects projects={data} />
 						</Route>
-						<Route path='/about'>
+						<Route path='/home/#about'>
 							<About />
 						</Route>
 						<Route path='/contact'>

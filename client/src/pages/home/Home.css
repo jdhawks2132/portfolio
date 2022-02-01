@@ -13,7 +13,7 @@
 	margin-left: 150px;
 }
 
-.home .about {
+.home #about {
 	grid-area: about;
 	margin-top: 150px;
 }
