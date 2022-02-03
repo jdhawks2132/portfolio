@@ -34,6 +34,15 @@ function Navbar() {
 				</li>
 				<li>
 					<a
+						href='https://medium.com/@jdhawks'
+						target='_blank'
+						rel='noreferrer noopener'
+					>
+						<span>05.</span>Blog
+					</a>
+				</li>
+				<li>
+					<a
 						href='https://drive.google.com/file/d/1jbeHE5qYxWmL1CXbRIayN6GthQoK3pv-/view?usp=sharing'
 						target='_blank'
 						rel='noreferrer noopener'
