@@ -38,8 +38,7 @@ function Navbar() {
 						target='_blank'
 						rel='noreferrer noopener'
 					>
-						<span>03.</span>
-						Resume
+						<button className='btn'>Resume</button>
 					</a>
 				</li>
 			</ul>
