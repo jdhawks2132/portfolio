@@ -20,8 +20,28 @@
 	flex-direction: column;
 	background: #fff;
 	height: auto;
-	width: auto;
+	width: 40vw;
 	border-radius: 12px;
 	border: 1px solid #ddd;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+	align-items: center;
+
+	h1 {
+		padding: 10px;
+	}
+
+	h2 {
+		padding: 10px;
+	}
+}
+
+.connect-btns {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: auto;
+	img {
+		width: 3vw;
+		padding: 20px;
+	}
 }
