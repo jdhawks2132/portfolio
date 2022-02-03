@@ -6,11 +6,14 @@ import Logo from '../assets/Logo.svg';
 import './Navbar.scss';
 
 function Navbar() {
+	const handleClick = () => {
+		window.scrollTo(0, 0);
+	};
 	return (
 		<nav className='navbar'>
 			<ul>
 				<li className='logo'>
-					<img src={Logo} alt='logo' />
+					<img onClick={handleClick} src={Logo} alt='logo' />
 				</li>
 				<li>
 					<Link to='about' smooth={true} duration={1000}>
