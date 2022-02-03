@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98.423" height="134.014" viewBox="0 0 98.423 134.014">
+  <g id="Group_35" data-name="Group 35" transform="translate(-910.636 -4959.986)">
+    <path id="Icon_feather-github" data-name="Icon feather-github" d="M37.145,84.819C12.756,91.756,12.756,73.259,3,70.947M71.289,98.692V80.8A15.117,15.117,0,0,0,66.7,68.727c15.316-1.618,31.413-7.121,31.413-32.369A24.471,24.471,0,0,0,90.8,19.02a22.318,22.318,0,0,0-.442-17.437S84.606-.035,71.289,8.428a68.723,68.723,0,0,0-34.145,0C23.828-.035,18.072,1.584,18.072,1.584a22.318,22.318,0,0,0-.439,17.433A24.467,24.467,0,0,0,10.317,36.5c0,25.063,16.1,30.566,31.413,32.369A15.121,15.121,0,0,0,37.145,80.8v17.9" transform="translate(909.441 4960.052)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <text id="GitHub" transform="translate(924 5088)" fill="#707070" font-size="20" font-family="Fira Code"><tspan x="0" y="0">GitHub</tspan></text>
+  </g>
+</svg>

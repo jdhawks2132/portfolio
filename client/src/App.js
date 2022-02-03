@@ -7,6 +7,7 @@ import About from './pages/about/About';
 import Navbar from './components/Navbar';
 import Contact from './pages/contact/Contact';
 import Skills from './pages/skills/Skills';
+import Footer from './components/Footer';
 
 function App() {
 	const [data, setData] = useState([]);
@@ -27,6 +28,7 @@ function App() {
 				<Skills />
 				<Contact />
 			</div>
+			<Footer />
 		</div>
 	);
 }

@@ -14,3 +14,14 @@
 		width: 60vw;
 	}
 }
+
+.connect-card {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	height: auto;
+	width: auto;
+	border-radius: 12px;
+	border: 1px solid #ddd;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
