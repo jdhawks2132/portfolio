@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="329.273" height="118.747" viewBox="0 0 329.273 118.747">
+  <g id="Group_12" data-name="Group 12" transform="translate(-1431.227 -2035)">
+    <text id="Projects" transform="translate(1500.5 2088)" fill="#980303" font-size="54" font-family="Fira Code"><tspan x="0" y="0">Projects</tspan></text>
+    <g id="Icon_feather-git-pull-request" data-name="Icon feather-git-pull-request" transform="translate(1631.292 2200.566) rotate(180)">
+      <path id="Path_7" data-name="Path 7" d="M56,39.251A16.751,16.751,0,1,0,39.251,56,16.751,16.751,0,0,0,56,39.251Z" transform="translate(142.563 25.819)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_9" data-name="Path 9" d="M19.5,59.252H36.251A11.167,11.167,0,0,0,47.418,48.085V9" transform="translate(134.396 71.314)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

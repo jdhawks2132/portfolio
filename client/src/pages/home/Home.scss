@@ -1,16 +1,24 @@
 .home {
 	display: flex;
-	height: 800px;
+	height: 100vh;
 	margin: 0 60px;
-}
+	flex-direction: column;
+	align-items: center;
 
-.intro-txt {
-	margin-top: 150px;
-	margin-left: auto;
-	margin-right: auto;
+	#laptop {
+		margin-top: 200px;
+		width: 600px;
+	}
+
+	#chevron {
+		margin-top: 80px;
+		width: 40px;
+		padding: 20px;
+	}
 }
 
 .home #about {
+	display: flex;
 	margin-top: 150px;
 }
 
@@ -26,4 +34,3 @@
 	color: var(--highlight-color);
 	width: 25px;
 }
-

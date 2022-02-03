@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520.372" height="193.172" viewBox="0 0 520.372 193.172">
+  <g id="Group_33" data-name="Group 33" transform="translate(-679.663 -4226.53)">
+    <text id="Connect" transform="translate(826.349 4279.53)" fill="#980303" font-size="54" font-family="Fira Code"><tspan x="0" y="0">Connect</tspan></text>
+    <g id="Icon_feather-git-pull-request" data-name="Icon feather-git-pull-request" transform="translate(676.663 4343.461) rotate(-90)">
+      <path id="Path_13" data-name="Path 13" d="M62.121,42.31A19.81,19.81,0,1,1,42.31,22.5,19.81,19.81,0,0,1,62.121,42.31Z" transform="translate(38.129 46.91)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_14" data-name="Path 14" d="M44.121,24.31A19.81,19.81,0,1,1,24.31,4.5a19.81,19.81,0,0,1,19.81,19.81Z" transform="translate(0 0)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_15" data-name="Path 15" d="M19.5,9H39.31C46.6,9,52.517,13.487,52.517,19.022V54.1" transform="translate(24.621 15.31)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_16" data-name="Path 16" d="M9,13.5v382" transform="translate(15.31 30.621)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_17" data-name="Path 17" d="M44.121,24.31A19.81,19.81,0,1,1,24.31,4.5a19.81,19.81,0,0,1,19.81,19.81Z" transform="translate(0 421.622)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_18" data-name="Path 18" d="M62.121,42.31A19.81,19.81,0,1,1,42.31,22.5,19.81,19.81,0,0,1,62.121,42.31Z" transform="translate(-12.621 459.751) rotate(90)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_19" data-name="Path 19" d="M19.5,9H39.31A13.207,13.207,0,0,1,52.517,22.207V68.431" transform="translate(33.31 446.243) rotate(90)" fill="none" stroke="#959595" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

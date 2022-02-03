@@ -23,6 +23,16 @@ function Navbar() {
 					</Link>
 				</li>
 				<li>
+					<Link to='skills' smooth={true} duration={1000}>
+						<span>03.</span>Skills
+					</Link>
+				</li>
+				<li>
+					<Link to='connect' smooth={true} duration={1000}>
+						<span>04.</span>Connect
+					</Link>
+				</li>
+				<li>
 					<a
 						href='https://drive.google.com/file/d/1jbeHE5qYxWmL1CXbRIayN6GthQoK3pv-/view?usp=sharing'
 						target='_blank'
@@ -31,21 +41,6 @@ function Navbar() {
 						<span>03.</span>
 						Resume
 					</a>
-				</li>
-				<li>
-					<a
-						href='https://jdhawks.myportfolio.com/'
-						target='_blank'
-						rel='noreferrer noopener'
-					>
-						<span>04.</span>
-						Design
-					</a>
-				</li>
-				<li>
-					<Link to='contact' smooth={true} duration={1000}>
-						<span>05.</span>Connect
-					</Link>
 				</li>
 			</ul>
 		</nav>

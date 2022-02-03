@@ -6,6 +6,7 @@ import Projects from './pages/projects/Projects';
 import About from './pages/about/About';
 import Navbar from './components/Navbar';
 import Contact from './pages/contact/Contact';
+import Skills from './pages/skills/Skills';
 
 function App() {
 	const [data, setData] = useState([]);
@@ -23,6 +24,7 @@ function App() {
 				<Home />
 				<About />
 				<Projects projects={data} />
+				<Skills />
 				<Contact />
 			</div>
 		</div>
